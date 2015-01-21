@@ -11,7 +11,7 @@ public class linkControl : MonoBehaviour
 	public bool down = false;
 	public bool right = false;
 	public bool left = false;
-	public bool space = false;
+	//public bool space = false;
 
 	void moveKeys()
 	{
@@ -205,14 +205,15 @@ public class linkControl : MonoBehaviour
 		           &&
 		           !Input.GetKey ("right")
 		           &&
-		           !Input.GetKey ("left")
-		           &&
-		           !Input.GetKey("space")) {
+		           !Input.GetKey ("left"))
+		           //&&
+		           //!Input.GetKey("space")) 
+		           {
 					animator.SetBool ("right", false);
 					animator.SetBool ("left", false);
 					animator.SetBool ("up", false);
 					animator.SetBool ("down", false);
-					animator.SetBool("space", false);
+					//animator.SetBool("space", false);
 					
 		} else if (!Input.GetKey ("up")
 		           &&
@@ -220,9 +221,10 @@ public class linkControl : MonoBehaviour
 		           &&
 		           !Input.GetKey ("right")
 		           &&
-		           !Input.GetKey ("left")
-		           &&
-		           Input.GetKey("space")) {
+		           !Input.GetKey ("left"))
+		           //&&
+		           //Input.GetKey("space")) 
+		           {
 					animator.SetBool("space", true);
 		}
 	}
@@ -235,11 +237,11 @@ public class linkControl : MonoBehaviour
 	{}
 
 	void Update() {
-		if (Input.GetButtonDown ("space")) {
-			print ("space pressed");
-			animation.Play("linkswordleft");//, PlayMode.StopAll);
+		//if (Input.GetButtonDown ("space")) {
+		//	print ("space pressed");
+			//animation.Play("linkswordleft");//, PlayMode.StopAll);
 			
-		}
+		//}
 	}
 
 	void FixedUpdate()
