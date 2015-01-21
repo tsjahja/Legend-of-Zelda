@@ -237,7 +237,7 @@ public class linkControl : MonoBehaviour
 	void Update() {
 		if (Input.GetButtonDown ("space")) {
 			print ("space pressed");
-			animation.Play("linkswordleft");//, PlayMode.StopAll);
+			//animation.Play("linkswordleft");//, PlayMode.StopAll);
 			
 		}
 	}
