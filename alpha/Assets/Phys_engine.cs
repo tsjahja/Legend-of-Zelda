@@ -28,15 +28,15 @@ public class Phys_engine : MonoBehaviour
 	{
 		// if still, don't move (set cur and prev pos to whatever Unity reports
 		// its position as
-		if(pob.still)
-		{
-			pob.curPos = pob.prevPos = pob.pushPos = pob.transform.position;
-			pob.vel = Vector3.zero;
-			return;
-		}
+		//if(pob.still)
+		//{
+	//		pob.curPos = pob.prevPos = pob.pushPos = pob.transform.position;
+	//		pob.vel = Vector3.zero;
+	//		return;
+	//	}
 
-		pob.prevPos = pob.curPos;
-		pob.curPos = pob.transform.position;
+		//pob.prevPos = pob.curPos;
+		//pob.curPos = pob.transform.position;
 
 		// no velocity or acceleration shenanigans (yet)
 	}

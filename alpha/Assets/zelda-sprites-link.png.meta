@@ -18,6 +18,7 @@ TextureImporter:
     21300026: linkswordup0
     21300028: linkswordright0
     21300030: linkswordright1
+    21300032: swordLeft
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,8 +38,8 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: 0
     aniso: 16
@@ -169,16 +170,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: linkswordleft1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 80
-        width: 27
-        height: 15
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: linkswordup1
       rect:
         serializedVersion: 2
@@ -216,6 +207,16 @@ TextureImporter:
         y: 80
         width: 27
         height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swordLeft
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 83
+        width: 14
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
